@@ -11,7 +11,7 @@
         <p class="faded">
             Created on <?php echo $page['created']->format('jS M Y'); ?>
             <?php if($page['updated']): ?>
-                Last updated <?php echo $page['updated']->format('jS M Y h:i'); ?>
+                Last updated <?php echo $page['updated']->format('jS M Y H:i'); ?>
             <?php endif; ?>
         </p>
         
