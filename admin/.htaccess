@@ -1,3 +1,4 @@
+#Authentication
 AuthType Basic
 AuthName "Restricted Area"
 AuthUserFile C:/xampp/htdocs/cms/admin/.htpasswd
