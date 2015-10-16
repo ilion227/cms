@@ -13,3 +13,5 @@ try {
     echo "Connection to database failed!";
     echo $ex . "<br>";
 }
+
+require 'functions.php';
