@@ -1,5 +1,7 @@
 <?php require VIEW_ROOT . '/templates/header.php'; ?>
-<a href="<?php VIEW_ROOT ?>/cms">Exit Admin CP</a>
+<a class="btn btn-danger" href="<?php VIEW_ROOT ?>/cms">
+    <i class="fa fa-dashboard" style="padding-right: 0.4em"></i>Exit Admin Panel
+</a>
 <br><br><br>
 
     <?php if (empty($pages)): ?>

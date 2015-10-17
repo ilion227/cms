@@ -1,5 +1,7 @@
 <?php require VIEW_ROOT . '/templates/header.php'; ?>
-<a href="<?php BASE_URL; ?>admin/list.php">Admin CP</a>
+<a class="btn btn-danger" href="<?php BASE_URL; ?>admin/list.php">
+    <i class="fa fa-dashboard" style="padding-right: 0.4em"></i>Admin Panel
+</a>
 <br><br><br>
 
     <?php if (empty($pages)): ?>
