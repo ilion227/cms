@@ -20,8 +20,10 @@
          <textarea name="body" id="body" cols="30" rows="4"></textarea>
     </label>
     
-    <input type="submit" value="Add">
-    <input type="reset" value="Clear">
+    <input class="btn btn-success" type="submit" value="Add">
+    <input class="btn btn-primary" type="reset" value="Clear">
 </form>
+
+<a href="javascript: history.go(-1)">Back </a>
 
 <?php require VIEW_ROOT . '/templates/footer.php'; ?>

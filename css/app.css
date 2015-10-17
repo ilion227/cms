@@ -9,8 +9,8 @@ and open the template in the editor.
 */
 
 body {
-    font: 1em "Helvetica", sans-serif;
-    background-color: #edeff0;
+    font-family: "Bree Serif", serif;
+   background-color: #edeff0;
     margin: 0;
 }
 
@@ -52,5 +52,10 @@ table {
     width: 100%;
     table-layout: fixed;
     margin-bottom: 20px;
+}
+
+.faded {
+    font-family: "Adobe Garamond Pro";
+    color: #bbb;
 }
 

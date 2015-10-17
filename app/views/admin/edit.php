@@ -22,8 +22,8 @@
     
     <input type="hidden" name="id" value="<?php echo escape($page['id']); ?>">
     
-    <input type="submit" value="Edit">
-    <input type="reset" value="Clear">
+    <input class="btn btn-success" type="submit" value="Edit">
+    <a class="btn btn-primary" href="javascript: history.go(-1)">Back </a>
 </form>
 
 <?php require VIEW_ROOT . '/templates/footer.php'; ?>
